@@ -2,24 +2,22 @@
 ***
 
 ## Task
-The task is to implement the game Mastermind.
+The task is to implement the classic game 'Mastermind'.
 
 ## Description
-Mastermind is a code-breaking game in which the player tries to guess a secret code of a certain length, 
-made up of digits. The player is allowed a certain number of attempts to guess the code,
-and after each guess the player is given feedback on how many digits they guessed correctly and 
-how many digits were correct but in the wrong position.
+Mastermind is a code-breaking game where players attempt to guess a secret code of a certain length composed of digits. Players are given a limited number of attempts to guess the code. After each guess, players receive feedback on how many digits they guessed correctly and how many digits were correct but in the wrong position.
 
 ## Installation
-To compile the program, run the following command:
-    gcc -o my_mastermind my_mastermind.c
+Compile the program using the following command:
+~> gcc -o my_mastermind my_mastermind.c
+
 
 ## Usage
-To run the program, use the following command:
-./my_mastermind [-c CODE] [-t ATTEMPTS]
-The -c flag allows you to specify a custom secret code, 
-and the -t flag allows you to specify the number of attempts the player has to guess the code.
-If these flags are not provided, a random secret code will be generated and the player will have 10 attempts.
+Run the program using the command:
+~> ./my_mastermind [-c CODE] [-t ATTEMPTS]
+
+Use the -c flag to specify a custom secret code. The -t flag allows you to set the number of attempts available to the player. If these flags are omitted, a random secret code will be generated, and the player will have 10 attempts.
+
 
 ### The Core Team
 <span><i>Made at <a href='https://qwasar.io'>Qwasar SV -- Software Engineering School</a></i></span>
