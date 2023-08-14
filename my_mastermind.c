@@ -1,9 +1,4 @@
-#include <stdio.h>
-#include <stdbool.h>
-#include <stdlib.h>
-#include <time.h>
-#include <string.h>
-#include <unistd.h>
+#include "./headers/header.h"
 
 int const MAXIMUM_GAME_ROUNDS_SET_TO_DEFAULT = 10;
 
